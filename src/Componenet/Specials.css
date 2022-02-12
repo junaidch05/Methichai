@@ -1,0 +1,90 @@
+.specials{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.spheading{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 10%;
+    gap: .2rem;
+}
+.spheading span{
+    font-size: 3.5rem;
+    background: goldenrod;
+    color: #fff;
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+.slider-container{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  
+}
+.holder{
+    width:65vh;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    border: .5rem solid goldenrod;
+  
+}
+.imageholder{
+    width: 100%;
+    height: 95%;
+   
+}
+.pic{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.tag{
+    height: 5%;
+    display: flex;
+   align-items: center;
+  justify-content: center;
+  background: #000;
+  color: goldenrod;
+}
+.tag h2{
+    font-size: 1.7rem;
+}
+
+.swiper {
+    width:76vw;
+    height:75vh;
+  background:#fff ;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.swipenow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+@media(max-width:786px){
+    .swiper{
+        width: 75vh;
+    }
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+    color: goldenrod;
+}
+.swiper-pagination{
+    color: #000;
+}
+.swiper-pagination-bullet{
+    background-color: goldenrod !important;
+    display: inline-block;
+    width: 1rem !important;
+    height: 1rem !important;
+   
+}

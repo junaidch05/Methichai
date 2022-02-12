@@ -1,0 +1,145 @@
+
+.contactheading{
+padding: 2rem ;
+    margin:2rem ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+   
+}
+.contactheading span{
+    font-size: 3.5rem;
+    background: goldenrod;
+    color: #fff;
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+    
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.contact-container{
+    width: 70vw;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow:#000 0px 3px 8px;
+    border: 1rem solid goldenrod;
+    display: flex;
+}
+.map{
+    width: 70%;
+    height: 100%;
+    box-shadow:#000 0px 3px 8px;
+}
+.mapimage{
+    width: 100%;
+    height: 100%;
+object-fit: fill;
+}
+.address{
+    display: flex;
+  width: 30%;
+    flex-direction: column;
+}
+.location{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location h3{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    
+}
+.socail{
+    height: 50%;
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sicon{
+    font-size: 5rem;
+    color:#fff;
+
+}
+@media(max-width:991px){
+    .contact-container{
+        width: 75vw;
+        height: 50vh;
+       
+
+    }
+    .location h3{
+        font-size: 2rem;
+      
+    }
+    .sicon{
+        font-size: 4rem;
+     
+    }
+    
+
+}
+@media(max-width:786px){
+    .contact-container{
+   flex-direction: column;
+
+    }
+    .map{
+        width: 100%;
+        height: 70%;
+  
+    }
+    .address{
+        flex-direction: row;
+      height: 30%;
+        width: 100%;
+     
+    }
+    .location{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .socail{
+        height: 100%;
+        width: 40%;
+       }
+       .location h3{
+        font-size: 1.7rem;
+      
+    }
+    .sicon{
+        font-size: 3.5rem;
+       
+    }
+}
+@media(max-width:485px){
+    .location h3{
+        font-size: 1.5rem;
+      
+    }
+    .sicon{
+        font-size: 3rem;
+   
+    }
+
+}
